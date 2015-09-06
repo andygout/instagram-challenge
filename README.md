@@ -82,7 +82,7 @@ Set-up Steps:
 
 #### Set route
 
-- `config.routes.rb` add: `root : 'photos#index'` and `resources :photos` (`$ bin/rake routes` to display different CRUD (create-read-update-delete) routes created)
+- `config/routes.rb` add: `root to: 'photos#index'` (or `root 'photos#index'`) and `resources :photos` (`$ bin/rake routes` to display different CRUD (create-read-update-delete) routes created)
 
 
 #### Generate controller
