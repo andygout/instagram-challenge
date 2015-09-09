@@ -75,9 +75,9 @@ Set-up Steps:
 
 - Add to test group in `Gemfile`: `gem 'rspec-rails'` and `gem 'capybara'` and `$ bundle` to install
 - Initiate RSpec: `$ bin/rails generate rspec:install` (creates `spec` directory with `spec_helper.rb` and `rails_helper.rb` and `.rspec` file)
-- `.rspec` file should include: `-- color` `--format documentation` `--require spec_helper`
+- `.rspec` file should include: `--color` `--format documentation` `--require spec_helper`
 - `spec/rails_helper.rb`: add below other require statements: `require 'capybara/rails`
-- `spec/features` dir: add first feature test
+- Add first feature test in `spec/features`
 
 
 #### Set route
